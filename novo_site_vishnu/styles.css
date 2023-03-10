@@ -178,16 +178,7 @@ li a:hover {
     padding: 40px;
 }
 
-footer {
-    background-color: rgb(34, 33, 33);
-    color: white;
-    bottom: 0;
-    padding: 10px 0px 10px 0px;
-    text-align: center;
-    font-size: 15px;
-    margin-top: auto;
-    width: 100%;
-}
+
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text],
@@ -284,25 +275,68 @@ input[type=submit]:hover {
     color: #081c7c;
 }
 
+footer {
+    background-color: #081c7c;
+    display: flex;
+    height: 200px;
+    width: 100%;
+    margin: auto;
+    overflow-x: hidden !important;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2.0;
+    font-size: 20px;
+    max-width: 2600px;
+    height: 150px;
+    line-height: 1.0;
+       
+    
+    bottom: 0;
+}
+footer div{
+    flex: 50%;
+}
+.info {
+    margin: auto;
+    border-left: 2px solid orange;
+    padding: 0px 40px 20px 65px;
+    margin-left: 40px;
+    text-align: left;
+    
+}
 
+.principal {
+    color: orange;
+    font-size: 15px;
+}
+
+.secundario {
+    color: white;
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+.logo_footer {
+    margin: auto;
+    margin-left: 0%;
+    margin-right: 0;
+    padding-right: 65px;
+    
+
+
+}
+
+.logo_footer .responsive2 {
+
+    min-width: 300px;
+
+    margin-left: auto;
+    height: auto;
+    text-align: center;
+    width: 35%;
+    padding-right: 35px;
+}
 
 /* Pagina produtos */
-
-.produtos .background {
-    padding-top: 150px;
-}
-
-.produtos .divider {
-    --text-divider-gap: 3rem;
-    /* set a customizable gap between label and lines */
-}
-
-
-/*
-.produtos .divider::before, .produtos .divider::after, .produtos_lista .divider::after, .produtos_lista .divider::before{
-    background-color: rgb(255, 255, 255);
-}
-*/
 
 .produtos .divider::after {
     background-color: rgb(255, 255, 255);
@@ -329,51 +363,12 @@ input[type=submit]:hover {
     font-weight: bold;
 }
 
-
-
-.produtos section a {
-    text-decoration: none;
-    color: white;
-    background-color: #081c7c;
-    padding: 20px;
-    border-radius: 30px;
-    font-weight: bold;
-
-}
-
-
-
-
-.produtos section .text {
-    font-size: 35px;
-}
-
-.fa_custom {
-    color: white;
-}
-
-.item {
-    margin: 50px;
-    flex-grow: 1;
-}
-
-
-.fila {
-    display: flex;
-    justify-content: space-evenly;
-    flex-grow: 1;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-/*Produtos_lista*/
-
-.produtos_lista section .title {
+.produtos section .title {
     color: #081c7c;
     font-size: 30px;
 }
 
-.produtos_lista li {
+.produtos li {
     text-align: left;
 }
 

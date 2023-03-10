@@ -294,24 +294,15 @@ footer {
     
     bottom: 0;
 }
-
-
-
-
 footer div{
     flex: 50%;
 }
-
-
-
-
 .info {
     margin: auto;
     border-left: 2px solid orange;
     padding: 0px 40px 20px 65px;
     margin-left: 40px;
     text-align: left;
-    
 }
 
 .principal {
